@@ -1,0 +1,19 @@
+---
+type: any
+body (includes-word): ["Lorem dolor sit amet", "consetetur sadipscing elitr"]
+action: filter
+---
+author:
+    combined_karma: "< 15"
+action: filter
+---
+author:
+    account_age: "< 3 days"
+action: filter
+---
+domain+url+body: [r/thefighterandthekid, r/LexFriedman]
+action: filter
+---
+title: Putin
+action: remove
+---
